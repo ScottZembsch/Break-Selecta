@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  background-image: url(/images/256187-vinyl-records-lined-up-on-the-shelf-of-a-music-sto.jpg);
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.title-section {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.71);
+  border-radius: 20px;
+  width: 500px;
+  height: 50px;
+}
+
+.search-icon {
+  filter: invert();
+  display: flex;
+  height: 30px;
+  justify-content: flex-start;
+  margin-left: 10px;
+  margin-right: 90px;
+}
+
+h1 {
+  color: black;
+  font-family: "Black Ops One";
+  display: flex;
+  font-size: 30px;
+}
+
+.sample-container {
+  display: flex;
+  justify-content:space-between;
+  margin-top: 100px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.rec-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(207, 207, 177, 0.332);
+  border: none;
+  border-radius: 10px;
+  height: 200px;
+  font-family: "Black Ops One";
+  font-size: 20px;
+}
+
+.rec {
+  height: 150px;
+  padding-top: 10px;
+}
+
+.rec:active {
+  height: 155px;
+}
+
